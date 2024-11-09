@@ -22,7 +22,7 @@ DELIMITER $$
            3. References from or dependencies on stored procedures within the database.
 */
 
-CREATE PROCEDURE CodeGenerator_DatabaseDocumentation(IN TableName VARCHAR(128))
+CREATE PROCEDURE CodeGenerator_MySQL_DatabaseDocumentation_Generator(IN TableName VARCHAR(128))
 BEGIN
     DECLARE TableDescription TEXT;
 
